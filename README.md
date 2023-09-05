@@ -1,2 +1,5 @@
 database connection:
-postgres://example_flask_user:zLu1aybD0Vw1nC2BKWXOoXilQrhMx3Ov@dpg-cjr83fm1208c73abs4ag-a.oregon-postgres.render.com/example_flask
+
+
+
+https://learning.flatironschool.com/courses/6463/pages/deploying-a-flask-api-to-render?module_item_id=591919

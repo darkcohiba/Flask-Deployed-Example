@@ -7,7 +7,7 @@ from flask_restful import Api, Resource
 from models import db, Bird
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://example_flask_user:zLu1aybD0Vw1nC2BKWXOoXilQrhMx3Ov@dpg-cjr83fm1208c73abs4ag-a.oregon-postgres.render.com/example_flask"
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URI')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.json.compact = False
 
